@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cpy4e7gqh303n"]
+
+[ext_resource type="TileSet" uid="uid://bcjgsxek10h2i" path="res://asset/png/tileset/city.tres" id="1_g7iwu"]
+[ext_resource type="Script" path="res://scene/2/city.gd" id="2_qvky4"]
+
+[node name="City" type="TileMap"]
+tile_set = ExtResource("1_g7iwu")
+format = 2
+script = ExtResource("2_qvky4")
